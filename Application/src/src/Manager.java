@@ -23,7 +23,7 @@ import javafx.stage.Stage;
 public class Manager extends Application
 {	
 	Image Image=new Image("image1.jpg");
-	ImageView ImageView=new ImageView(Image);
+	ImageView imageView1=new ImageView(Image);
 	
 	BorderPane BorderPane;//create GUI elements
 	Pane Pane;
@@ -80,8 +80,8 @@ public class Manager extends Application
 	@Override
 	public void start(Stage Stage)
 	{
-		ImageView.setFitWidth(800);
-		ImageView.setPreserveRatio(true);
+		imageView1.setFitWidth(800);
+		imageView1.setPreserveRatio(true);
 		
 		BorderPane=new BorderPane();//GUI assembly
 		
@@ -131,7 +131,7 @@ public class Manager extends Application
 		
 
 		BorderPane.setLeft(leftPane);
-		BorderPane.setCenter(ImageView);
+		BorderPane.setCenter(imageView1);
 		BorderPane.setRight(VBoxR);
 		BorderPane.setBottom(bottomPane);
 
