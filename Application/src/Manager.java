@@ -1,4 +1,4 @@
-package src;
+//package src;
 /****************************************************************************
  * Manager.java
  * Final Project: Study of the Collatz Conjecture
